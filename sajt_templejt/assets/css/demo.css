@@ -154,6 +154,14 @@
     white-space: nowrap;
 }
 
+.carousel-inner {
+  width:100%;
+  display: block;
+  position: relative;
+  background-color: #000;
+}
+
+
 .parallax-pro{
   width:100%;
   display: block;
