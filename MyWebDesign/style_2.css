@@ -176,7 +176,7 @@ header {
 
 /* Mobile View ********************/
 
-@media (max-width: 603px) {
+@media (max-width: 650px) {
 
     .col {
         width: 100%;
