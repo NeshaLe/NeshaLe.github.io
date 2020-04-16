@@ -171,10 +171,7 @@ header {
 }
  */
 
-
-
-
-/* Mobile View ********************/
+ /* Mobile View ********************/
 
 @media (max-width: 650px) {
 
@@ -183,7 +180,7 @@ header {
     }
 
     .altmeni{
-        display: block;
+        display: flex;
     }
     
     nav{
@@ -193,7 +190,7 @@ header {
     .mob-nav{
         display: none;
         position: absolute;
-        margin-left: -90px;
+        /* margin-left: -90px; */
         margin-top: 15px;
     }
 
@@ -203,12 +200,13 @@ header {
         text-decoration: none;
         color:black;
         padding: 14px 30px;
-        text-align: center;
-
-                
+        text-align: center;        
         
      }
 
+     html,body{
+        overflow-x: hidden;
+    }
 
 
 
