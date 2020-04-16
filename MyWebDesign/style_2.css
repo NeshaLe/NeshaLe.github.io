@@ -180,7 +180,7 @@ header {
     }
 
     .altmeni{
-        display: flex;
+        display: block;
     }
     
     nav{
@@ -190,7 +190,7 @@ header {
     .mob-nav{
         display: none;
         position: absolute;
-        /* margin-left: -90px; */
+        margin-left: -90px;
         margin-top: 15px;
     }
 
