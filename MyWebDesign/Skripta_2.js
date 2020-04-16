@@ -13,7 +13,7 @@
 //         }
 //     })
 // });
-$(".pozadina2").removeClass("transparentna");
+// $(".pozadina2").removeClass("transparentna");
 $(document).ready(function() {
     $(window).scroll(function() {
       if ($(document).scrollTop() < 100) {
