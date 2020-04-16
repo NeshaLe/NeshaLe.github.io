@@ -42,7 +42,6 @@ body {
 .transparentna{
     background-color:wheat;
     min-height: 50px;
-    /* margin-top: -10px; */
 }
 
 .col {
@@ -192,7 +191,7 @@ header {
     }
 
     .mob-nav{
-        display: block;
+        display: none;
         position: absolute;
         margin-left: -90px;
         margin-top: 15px;
