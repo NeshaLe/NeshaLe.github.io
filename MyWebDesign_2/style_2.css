@@ -152,7 +152,7 @@ header {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.1);
+    background:  rgb(57, 126, 211);;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50%;
@@ -165,7 +165,7 @@ header {
     transition-timing-function: ease-out;
   }
   .hvr-shutter-out-vertical:hover, .hvr-shutter-out-vertical:focus, .hvr-shutter-out-vertical:active {
-    color:rgb(1, 1, 1);
+    color:white;
   }
   .hvr-shutter-out-vertical:hover:before, .hvr-shutter-out-vertical:focus:before, .hvr-shutter-out-vertical:active:before {
     -webkit-transform: scaleY(1);
