@@ -168,7 +168,6 @@ header {
     margin-bottom: 10px;
     background: url(images/Headphones_resting_02.jpg) no-repeat center center fixed;
     background-size: cover;
-    width: 100%;
 }
 .kolona2{
     position: relative;
@@ -179,10 +178,11 @@ header {
 }
 
 .blur{
-    position: flex;
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
     background: url(images/Headphones_resting_02.jpg) no-repeat center center fixed;
     background-size: cover;
-    width: 100%;
     filter: blur(10px);
 }
 
