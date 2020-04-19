@@ -48,7 +48,7 @@ body {
 .response {
     width: 100%;
     max-width: 550px;
-    height: auto
+    height: auto;
     transition: all 1s;
     margin: 6px 6px;
     transition: all 1s;
@@ -166,23 +166,23 @@ header {
     display: flex;
     width: 100%;
     margin-bottom: 10px;
-    background: url(images/Headphones_resting_02.jpg) no-repeat center center fixed;
-    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
 .kolona2{
     position: relative;
-   /* background: url(images/Headphones_resting_02.jpg) no-repeat center center fixed;
+    background: url(images/Headphones_resting_02.jpg) no-repeat center center fixed;
     background-size: cover;
-    width: 100%;*/
+    width: 100%;
+    height: auto;
     transition-duration: 300ms;
 }
 
 .blur{
-    display: flex;
-    width: 100%;
-    margin-bottom: 10px;
+    position: relative;
     background: url(images/Headphones_resting_02.jpg) no-repeat center center fixed;
     background-size: cover;
+    width: 100%;
     filter: blur(10px);
 }
 
@@ -214,6 +214,7 @@ header {
 
 .row p{
     color: black;
+    margin: 0 auto;
     opacity: 100%;
     font-size: 5rem;
     font-weight: 700;
@@ -285,26 +286,46 @@ header {
      }
 
      .row p{
-        
-        font-size: 3rem;
-        
+        margin-top: 175px;        
+        font-size: 3.5rem;
+        color: rgb(245, 222, 179);
+        text-shadow: black 0px 1px 1px;
+        border-top: 3px solid wheat;
+        border-bottom: 3px solid wheat;        
     }
 
-    .slikaispod{
+    .belitekst p{
+        color:wheat;       
+        text-shadow: black 0px 1px 1px;
+        border-top: 3px solid wheat;
+        border-bottom: 3px solid wheat;    
+    }
+
+
+    .kolona2{
+        background: url(images/PR_agency_PRINT_dragons_02.jpg) no-repeat top center fixed;
+        background-size: contain;
+    }
+
     
-    background: url(images/3rdPartyHosts_03_CC.jpg) no-repeat center center fixed;
-    }
-
     .blur{
-    background: url(images/3rdPartyHosts_03_CC.jpg) no-repeat center center fixed;
-    
+        background: url(images/PR_agency_PRINT_dragons_02.jpg) no-repeat top center fixed;
+        background-size: contain;
+    }
+
+    .row{  
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .mesto{
+        padding-bottom: 75px;
+        min-height: 10px;
     }
     
 
      html,body{
         overflow-x: hidden;
     }
-
-
 
 }
