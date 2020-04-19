@@ -179,7 +179,7 @@ header {
 }
 
 .blur{
-    position: relative;
+    position: flex;
     background: url(images/Headphones_resting_02.jpg) no-repeat center center fixed;
     background-size: cover;
     width: 100%;
