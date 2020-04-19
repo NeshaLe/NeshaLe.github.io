@@ -281,6 +281,16 @@ header {
          background-color: white;
      }
 
+     .row p{
+        
+        font-size: 3.5rem;
+        
+    }
+
+    .slikaispod{
+        max-width: 600px;
+    }
+
      html,body{
         overflow-x: hidden;
     }
