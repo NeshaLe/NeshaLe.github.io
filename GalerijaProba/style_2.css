@@ -283,12 +283,12 @@ header {
 
      .row p{
         
-        font-size: 3.5rem;
+        font-size: 3rem;
         
     }
 
     .slikaispod{
-        max-width: 600px;
+        display: none;
     }
 
      html,body{
