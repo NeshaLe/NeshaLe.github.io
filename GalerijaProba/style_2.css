@@ -293,6 +293,12 @@ header {
     .slikaispod{
     
     background: url(images/3rdPartyHosts_03_CC.jpg) no-repeat center center fixed;
+    }
+
+    .blur{
+    background: url(images/3rdPartyHosts_03_CC.jpg) no-repeat center center fixed;
+    
+    }
     
 
      html,body{
