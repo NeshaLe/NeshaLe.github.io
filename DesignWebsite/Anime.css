@@ -182,7 +182,7 @@ nav .current{
 
 
 /* Mediji manji od 680px */
-  @media (max-aspect-ratio: 1/1) and (max-width: 680px) {
+  @media (max-aspect-ratio: 1/1) and (max-width: 770px) {
     .col {
       flex-direction: row;
     }
