@@ -241,6 +241,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    -webkit-transition: 1s;
     transition: 1s;
     filter: brightness(60%);
     /*z-index: 0;*/
