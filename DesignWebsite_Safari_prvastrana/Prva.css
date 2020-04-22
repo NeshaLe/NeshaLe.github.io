@@ -227,7 +227,7 @@ header {
 .mesto{
     width: auto;
     min-height: 540px;
-    z-index: -10;
+    /* z-index: -10; */
 }
 .mesto p{
     text-align: center;
