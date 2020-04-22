@@ -209,14 +209,14 @@ header {
     width: 100%;
     margin-bottom: 10px;
 }
-/* .kolona2{
+.kolona2{
     position: relative;
     background: url(images/ToughInk_visu_5.jpg) no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     transition-duration: 300ms;
     filter: brightness(60%);
-}  */
+} 
 
 .kolona2:after{
     content:"";
