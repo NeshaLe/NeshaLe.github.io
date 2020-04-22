@@ -223,6 +223,7 @@ header {
     background: url(images/ToughInk_visu_5.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
+    z-index: -10;
     transition-duration: 300ms;
     filter: brightness(60%);
 } 
@@ -232,6 +233,7 @@ header {
     background: url(images/ToughInk_visu_5.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
+    z-index: -10;
     filter: brightness(60%) blur(10px);
 }
 
