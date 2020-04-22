@@ -219,8 +219,8 @@ header {
     margin-bottom: 10px;
 }
 .kolona2{
-    position: relative;
-    background: url(images/ToughInk_visu_5.jpg) no-repeat center center fixed;
+    position: fixed;
+    background: url(images/ToughInk_visu_5.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
     transition-duration: 300ms;
@@ -228,8 +228,8 @@ header {
 } 
 
 .blur{
-    position: relative;
-    background: url(images/ToughInk_visu_5.jpg) no-repeat center center fixed;
+    position: fixed;
+    background: url(images/ToughInk_visu_5.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
     filter: brightness(60%) blur(10px);
