@@ -219,22 +219,6 @@ header {
     z-index: -1;
 } 
 
-.kolona2:after{
-    content:"";
-    position:fixed; /* stretch a fixed position to the whole screen */
-    top:0;
-    height:540px; /* fix for mobile browser address bar appearing disappearing */
-    left:0;
-    right:0;
-    z-index:-1; /* needed to keep in the background */
-    background: url(images/ToughInk_visu_5.jpg) center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} 
-
-
 .blur{
    
     filter: brightness(60%) blur(10px);
