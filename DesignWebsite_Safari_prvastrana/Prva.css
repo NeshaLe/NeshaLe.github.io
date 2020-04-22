@@ -216,6 +216,7 @@ header {
     width: 100%;
     transition-duration: 300ms;
     filter: brightness(60%);
+    z-index: -10;
 } 
 
 .kolona2:after{
