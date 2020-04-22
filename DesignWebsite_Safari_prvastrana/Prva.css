@@ -231,8 +231,6 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    transition-duration: 300ms;
-    filter: brightness(60%);
 } 
 
 
