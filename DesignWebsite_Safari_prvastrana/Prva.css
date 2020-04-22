@@ -220,6 +220,7 @@ header {
 }
 .kolona2{
     position: fixed;
+    top: 0;
     background: url(images/ToughInk_visu_5.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
