@@ -108,6 +108,7 @@ header {
 }
 
 .container-footer{
+	position: relative;
     background-color: rgb(57, 126, 211);
     /* max-width: 1200px; */
     margin: 0 auto;
