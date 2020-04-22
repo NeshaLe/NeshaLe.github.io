@@ -242,6 +242,7 @@ header {
     background-position: center center;
     transition: 1s;
     filter: brightness(60%);
+    z-index: 0;
 }
 
 .blur{
