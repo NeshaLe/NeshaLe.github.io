@@ -13,6 +13,14 @@ html,body{
     overflow-x: hidden;
 }
 
+main{
+    position: relative;
+    background-color: #EBEBEB;
+    width: 100%;
+    height: auto;
+    z-index: 1000;
+}
+
 .header {
     position: fixed;
     /* display: none; */
@@ -22,7 +30,7 @@ html,body{
     /* margin-bottom: 40px; */
     transition: all 0.8s;
     top:-90px;
-    z-index: 1;
+    z-index: 1005;
 }
 
 .fixed2{
@@ -57,7 +65,7 @@ html,body{
     /* min-height: 90px; */
     width: 100%;
     position: fixed;
-    z-index: 10;
+    z-index: 1010;
 }
 
 .bela{
@@ -68,6 +76,7 @@ html,body{
 .col {
     width: 48%;
     margin-bottom: 40px;
+    z-index: 1;
 }
 
 .col p{
@@ -213,40 +222,28 @@ header {
 .altmeni{
     display: none;
 }
-.slikaispod{
-    display: flex;
-    width: 100%;
-    margin-bottom: 10px;
-}
-.kolona2{
+
+.zaglavlje{
     position: relative;
-    background: url(images/ToughInk_visu_5.jpg) no-repeat center center fixed;
-    background-size: cover;
     width: 100%;
-    transition-duration: 300ms;
-    filter: brightness(60%);
+    height: 540px;
+    top: 0;
+    left: 0;
 } 
 
-.blur{
-    position: relative;
-    background: url(images/ToughInk_visu_5.jpg) no-repeat center center fixed;
-    background-size: cover;
+.img-src{
+    position: fixed;
     width: 100%;
-    filter: brightness(60%) blur(10px);
+    height: 540px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: 1s;
+    filter: brightness(60%);
 }
 
-.mesto{
-    width: auto;
-    min-height: 540px;
-    z-index: -10;
-}
-.mesto p{
-    text-align: center;
-    padding-top: 325px;
-    color: white;
-    font-size: 5rem;
-    font-weight: 700;
-    text-shadow: black 0px 1px 2px;
+.blur{
+    filter: brightness(60%) blur(10px);
 }
 
 
@@ -258,6 +255,8 @@ header {
     top: 0;
     justify-content: center;
     align-items: center;
+    z-index: 5;
+
    
 }
 
@@ -265,6 +264,7 @@ header {
     color: rgb(235, 235, 235);
     /* opacity: 100%; */
     font-size: 3.5rem;
+    z-index: 1;
     /* font-weight: 700; */
     text-align: center;
     transition-duration: 1000ms;

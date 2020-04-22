@@ -44,9 +44,9 @@ $(document).ready(function() {
   $(document).ready(function() {
     $(window).scroll(function() {
       if ($(document).scrollTop() < 35) {
-        $(".kolona2").removeClass("blur");
+        $(".img-src").removeClass("blur");
       } else {
-        $(".kolona2").addClass("blur");
+        $(".img-src").addClass("blur");
       }
     });
   });
