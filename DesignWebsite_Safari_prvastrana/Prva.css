@@ -225,7 +225,7 @@ header {
     height:540px; /* fix for mobile browser address bar appearing disappearing */
     left:0;
     right:0;
-    z-index:-1; /* needed to keep in the background */
+    z-index:-10; /* needed to keep in the background */
     background: url(images/ToughInk_visu_5.jpg) center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
