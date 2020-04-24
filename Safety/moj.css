@@ -1,0 +1,28 @@
+/* body{
+    background-color: black;
+}  */
+.razmak{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color:white;
+} 
+
+
+.img-src{
+    transition: 500ms;
+}
+
+.blurovano{
+    filter:blur(10px);
+}
+
+.opciono span{
+    color: coral;
+    font-weight: 500;
+}
+
+.active span{
+    color:#dd6839;
+    font-weight: 700;
+}
