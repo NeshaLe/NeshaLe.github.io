@@ -10,7 +10,9 @@ body{
     height: 60px;
     background-color:white;
 } 
-
+.italik{
+    font-style: italic;
+}
 
 .img-src{
     transition: 500ms;
