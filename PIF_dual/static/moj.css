@@ -84,3 +84,8 @@ iframe{
     font-weight: 700;
 }
 
+@media (max-width: 680px) {
+    html,body{
+        overflow-x: hidden;
+    }
+}
