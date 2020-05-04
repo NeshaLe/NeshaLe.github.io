@@ -208,9 +208,10 @@
 .parallax-pro .hello{
     font-size: 48px;
     font-weight: 300;
+    width: 100%;
     position: relative;
 /*     width: 430px; */
-    margin: 30px auto 50px;
+    margin: 30px auto;
 }
 .parallax-pro .label{
     font-size: 18px;
@@ -234,7 +235,7 @@
     color: #fff;
 }
 .parallax-pro ul{
-     width: 328px;
+     max-width: 320px;
     margin: 0 auto;
 }
 .parallax-pro li{
@@ -401,6 +402,14 @@
         /* width: 268px; */
     }
 }
+
+@media (max-width: 500px){
+    .blurred-container .motto{
+        font-size: 35px;
+        /* width: 268px; */
+    }
+}
+
 .main{
     background-color: #FFFFFF;
     position: relative;
