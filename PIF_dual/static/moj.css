@@ -1,91 +1,98 @@
-html{ height:100%; }
-
-body{
-    min-height: 100%;
-    margin: 0;
-} 
-.razmak{
-    position: relative;
-    width: 100%;
-    height: 60px;
-    background-color:white;
-} 
-.italik{
-    font-style: italic;
+html {
+  height: 100%;
 }
 
-.img-src{
-    transition: 500ms;
+body {
+  min-height: 100%;
+  margin: 0;
+}
+.razmak {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+.italik {
+  font-style: italic;
 }
 
-.blurovano{
-    filter:blur(10px);
+.img-src {
+  transition: 500ms;
 }
 
-.opciono span{
-    color: coral;
-    font-weight: 500;
+.blurovano {
+  filter: blur(10px);
 }
 
-.active span{
-    color:#dd6839;
-    font-weight: 700;
+.opciono span {
+  color: coral;
+  font-weight: 500;
 }
 
-footer{
-    position: relative;
-    margin-top: 40px;
-    height: 90px;
+.active span {
+  color: #dd6839;
+  font-weight: 700;
 }
 
-.kontejner-footer{
-    background-color:rgba(52, 172, 220, 0.98);
-    color: white;
-    /* max-width: 1200px; */
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    min-height: 60px;
-    justify-content: center;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
+footer {
+  position: relative;
+  margin-top: 40px;
+  height: 90px;
 }
 
-.adresa{
-    margin: 0 auto;
-    position: relative;
-    max-width: 1150px;
-    padding: 0 10px;
+.kontejner-footer {
+  background-color: rgba(52, 172, 220, 0.98);
+  color: white;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
-iframe{
-    display: block;
-    margin: 20px auto;
-    position: relative;
-    max-width: 1150px;
-    padding: 0 20px;
+.adresa {
+  margin: 0 auto;
+  position: relative;
+  max-width: 1150px;
+  padding: 0 10px;
 }
 
-.pozadina3{
-    background-color: rgba(52, 172, 220, 0.98);
-    width: 100%;
-    position: fixed;
-    z-index: 10;
-    padding: 0 10px;
+iframe {
+  display: block;
+  margin: 20px auto;
+  position: relative;
+  max-width: 1150px;
+  padding: 0 20px;
 }
 
-.logo a{
-    color: white;
+.pozadina3 {
+  background-color: rgba(52, 172, 220, 0.98);
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  padding: 0 10px;
 }
 
-.dole{
-    font-weight: 700;
+.logo a {
+  color: white;
+}
+
+.dole {
+  font-weight: 700;
+}
+
+.dropdown-menu li > a {
+  color: red;
 }
 
 @media (max-width: 680px) {
-    html,body{
-        overflow-x: hidden;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+  }
 }
