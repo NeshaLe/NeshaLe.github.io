@@ -1,0 +1,606 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+}
+.referenca {
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+.pozadina {
+  height: 100vh;
+  background-image: url("./img/victoria-priessnitz-i5h1RQF-_jU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.nav-head {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5rem;
+  background-color: white;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in;
+}
+
+.active {
+  text-decoration-line: underline;
+  text-underline-position: under;
+  text-underline-offset: 3px;
+  color: #000000;
+  transition: all 2.5s;
+}
+
+.logo h1 {
+  font-size: 3rem;
+}
+
+.logo {
+  flex: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-text {
+  width: 300px;
+}
+
+.logo-nav {
+  width: 250px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigacija {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.navigacija li {
+  list-style: none;
+  font-size: 2rem;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.heroText {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  max-width: 60vw;
+}
+
+.logo {
+  width: 100px;
+}
+
+.aktivnosti {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.textAktivnosti {
+  padding-bottom: 2rem;
+}
+
+.undrawAktivnosti {
+  width: 200px;
+}
+
+.aktivnostiUvod {
+  font-size: 1.8rem;
+  max-width: 50vw;
+  font-weight: 200;
+}
+
+.flexCol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.oNama {
+  padding: 4rem 0rem;
+  padding-top: 14rem;
+  display: flex;
+  background-color: rgb(230, 230, 230);
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.oNamaText {
+  font-size: 1.8rem;
+  max-width: 80vw;
+  font-weight: 200;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+.certifikat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  max-width: 85%;
+  height: auto;
+}
+
+.kontakt {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  min-height: 90vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.textKontakt {
+  /* padding-bottom: 7rem; */
+  padding-top: 12rem;
+}
+
+.textKontakt h2 {
+  text-align: center;
+}
+
+.lista {
+  min-width: 40vw;
+  text-align: left;
+  list-style: none;
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.fa-icon {
+  padding-right: 2rem;
+}
+
+.lista li {
+  padding: 0.75rem;
+}
+
+iframe {
+  width: 80vw;
+}
+
+footer {
+  height: 10vh;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+}
+
+.futer {
+  font-size: 1.2rem;
+}
+
+.hide {
+  height: 0vh !important;
+  transition: all 0.5s ease-out !important;
+}
+
+.mobnav {
+  display: none;
+}
+
+.mobilniblok {
+  display: none;
+}
+
+/* animacija hero-teksta */
+
+.herotext-1,
+.herotext-2,
+.herotext-3 {
+  opacity: 0;
+}
+
+.herotext-1 {
+  font-weight: 200;
+}
+
+@keyframes animtex {
+  100% {
+    opacity: 1;
+  }
+}
+.herotext-1,
+.herotext-2,
+.herotext-3 {
+  animation: animtex 0.25s forwards linear;
+}
+
+.herotext-1 {
+  animation-delay: 0.5s;
+}
+
+.herotext-2 {
+  animation-delay: 1s;
+}
+
+.herotext-3 {
+  animation-delay: 1.5s;
+  padding-bottom: 2rem;
+}
+
+/* Deo koji se odnosi na 'harmonike' iz odseka Aktivnosti_____________________ */
+.flexHarmonika {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  /* min-height: 100vh; */
+  /* flex: wrap; */
+}
+
+.spisak {
+  min-height: 50%;
+  /* max-width: 90vw;
+  min-width: 80vw; */
+  flex: 1;
+
+  /* border-radius: 0.2rem; */
+  font-size: 1.6rem;
+  /* text-align: left; */
+}
+.raper {
+  min-width: 100%;
+  display: flex;
+  align-content: space-between;
+  text-align: left;
+  justify-content: center;
+}
+.fa-times-circle {
+  font-size: 2.2rem;
+  color: rgb(1, 50, 153);
+  transition: all 0.5s;
+  transform: rotate(45deg);
+}
+.fa-times-circle:hover {
+  color: rgb(0, 153, 50);
+  cursor: pointer;
+}
+
+.rotated {
+  transform: rotate(0deg);
+}
+#jsondata {
+  flex: 5;
+}
+.wrapper {
+  background-color: whitesmoke;
+  min-width: 40vw;
+  max-width: 60vw;
+  /* min-width: 80vw; */
+  overflow: hidden;
+  border: 1px rgb(1, 50, 153);
+  border-style: solid none none;
+  opacity: 0;
+  transition: all 0.5s ease-in;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.wrapper:last-child {
+  border: 1px rgb(1, 50, 153);
+  border-style: solid none solid none;
+}
+
+#reveal-content {
+  max-height: 1000px;
+  transition: all 0.75s ease-in;
+}
+
+#reveal-content p:last-child {
+  text-align: left;
+  font-weight: 200;
+  font-weight: 200;
+  font-size: 1.6rem;
+  padding: 0rem 1rem 1.5rem;
+  /* word-wrap: break-word; */
+}
+
+#reveal-content p:last-child a {
+  display: block;
+  margin-top: 1.2rem;
+}
+
+.hide_aktivnosti {
+  max-height: 0 !important;
+  transition: all 0.5s !important;
+}
+
+/* __________________________________________________________________ */
+/* MediaQueries ______________________________________________________*/
+
+@media screen and (max-width: 1024px) {
+  .herotext-2,
+  .herotext-3 {
+    font-size: 3rem;
+  }
+
+  .herotext-1 {
+    font-size: 2.25rem;
+    font-weight: 200;
+  }
+
+  .logo-text {
+    width: 250px;
+  }
+
+  .navigacija li {
+    font-size: 1.9rem;
+  }
+
+  .logo-nav {
+    width: 230px;
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+  .nav-head {
+    padding: 0 2rem;
+  }
+
+  .wrapper {
+    max-width: 70vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .herotext-2,
+  .herotext-3,
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  .heroText {
+    max-width: 90vw;
+  }
+
+  .aktivnostiUvod {
+    font-size: 1.6rem;
+    max-width: 80vw;
+  }
+
+  .undrawAktivnosti {
+    width: 170px;
+  }
+
+  .herotext-1 {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+  .navigacija li {
+    font-size: 1.7rem;
+  }
+
+  .logo-text {
+    width: 220px;
+  }
+
+  .logo-nav {
+    width: 200px;
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+  .nav-head {
+    padding: 0 2rem;
+  }
+
+  .wrapper {
+    max-width: 80vw;
+  }
+
+  .navigacija {
+    display: none;
+  }
+
+  .mobnav {
+    display: block;
+    z-index: 5;
+  }
+
+  .burger {
+    cursor: pointer;
+  }
+
+  .mobilniblok {
+    display: block;
+    background-color: white;
+    width: 30vw;
+    max-height: 0vh;
+    /* min-height: 20vh; */
+    position: absolute;
+    top: 10vh;
+    right: 0px;
+    z-index: 1;
+    transition: all 1.75s ease-out;
+  }
+
+  .pomeraj {
+    /* right: 0vw; */
+    max-height: 100vh;
+    transition: all 1s ease-in;
+  }
+
+  .linija_1,
+  .linija_2,
+  .linija_3 {
+    background-color: black;
+    width: 30px;
+    height: 3px;
+    margin: 5px 0px;
+    transition: all 0.3s ease;
+  }
+
+  .listaMob {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+  }
+  .listaMob li {
+    margin: 2rem 0rem;
+    list-style: none;
+    opacity: 0;
+  }
+  .listaMob li:nth-child(1) {
+    transition: all 0.5s ease-out 0.2s;
+  }
+  .listaMob li:nth-child(2) {
+    transition: all 0.5s ease-out 0.4s;
+  }
+  .listaMob li:nth-child(3) {
+    transition: all 0.5s ease-out 0.6s;
+  }
+  .listaMob li:nth-child(4) {
+    transition: all 0.5s ease-out 0.8s;
+  }
+
+  li.fade {
+    opacity: 1;
+  }
+
+  .toggle .linija_1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .toggle .linija_2 {
+    opacity: 0;
+  }
+
+  .toggle .linija_3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .herotext-2,
+  .herotext-3,
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .herotext-1 {
+    font-size: 1.4rem;
+    font-weight: 200;
+  }
+  .navigacija li {
+    font-size: 1.1rem;
+  }
+
+  .logo-nav {
+    width: 130px;
+  }
+
+  .aktivnostiUvod {
+    font-size: 1.4rem;
+  }
+
+  .raper p {
+    font-size: 1.4rem;
+  }
+
+  #reveal-content p:last-child {
+    font-size: 1.4rem;
+  }
+
+  .oNama,
+  .textKontakt {
+    padding-top: 9rem;
+  }
+
+  .oNamaText {
+    font-size: 1.4rem;
+  }
+
+  .lista {
+    font-size: 1.3rem;
+  }
+
+  .logo-text {
+    width: 130px;
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+  .nav-head {
+    padding: 0 2rem;
+  }
+
+  .textAktivnosti h2 {
+    padding-top: 7rem;
+  }
+
+  .undrawAktivnosti {
+    width: 130px;
+  }
+
+  .wrapper {
+    max-width: 80vw;
+  }
+}

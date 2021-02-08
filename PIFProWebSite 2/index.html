@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PIFPro</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./img/SamoLogo_Artboard_samo_logo.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="referenca">
+      <div class="mobilniblok">
+        <ul class="listaMob">
+          <li><a data-page="main" href="#main">Početak</a></li>
+          <li><a data-page="aktivnosti" href="#aktivnosti">Usluge</a></li>
+          <li><a data-page="oNama" href="#oNama">O nama</a></li>
+          <li><a data-page="kontakt" href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pozadina"></div>
+    <header id="navbar" class="nav-head hide">
+      <div class="logo">
+        <a href="#main"
+          ><img
+            class="logo-nav"
+            src="./img/Logo_v2_Artboard_2_horizontalni.svg"
+            alt="Logo"
+        /></a>
+        <!-- <h1><a href="#main">PIFPro</a></h1> -->
+      </div>
+      <ul class="navigacija">
+        <li>
+          <a data-page="main" href="#aktivnosti" style="display: none"
+            >Usluge</a
+          >
+        </li>
+        <li><a data-page="aktivnosti" href="#aktivnosti">Usluge</a></li>
+        <li><a data-page="oNama" href="#oNama">O nama</a></li>
+        <li><a data-page="kontakt" href="#kontakt">Kontakt</a></li>
+      </ul>
+      <div class="mobnav">
+        <div class="burger">
+          <div class="linija_1"></div>
+          <div class="linija_2"></div>
+          <div class="linija_3"></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="main" id="main">
+      <div class="heroText">
+        <!-- <h2>PIFPro</h2> -->
+        <img
+          class="logo-text"
+          src="./img/Logo_v2_woBG_Artboard 1.svg"
+          alt="Logo"
+        />
+        <br />
+        <p class="herotext-1">
+          Pored svakodnevnog zalaganja oko kvaliteta, prodaje i naplate
+          kozmetičkog proizvoda, postoji i novi, regulatorni momenat - PIF ili
+          Dosije sa informacijama o proizvodu čija izrada traži
+          multidisciplinarnu ekspertizu, dislokaciju ili angažovanja novih
+          ljudskih, softverskih i/ili prostornih resursa, kao i dodatnog
+          vremena. Ali, ne mora da bude tako...
+        </p>
+        <br />
+        <h2 class="herotext-2">Neka Vaši PIF-ovi Budu Naša Briga</h2>
+        <br />
+        <!-- <h2>PIFPro</h2> -->
+        <h2 class="herotext-3">
+          PIFPro - Profesionalna & Ekspresna izrada PIF-ova, Razvoj kozmetičkih
+          proizvoda i drugi vidovi podrške Vašem poslovanju
+        </h2>
+      </div>
+    </section>
+    <section class="aktivnosti" id="aktivnosti">
+      <div class="textAktivnosti flexCol">
+        <h2>Naše usluge</h2>
+        <br />
+        <p class="aktivnostiUvod">
+          <strong>PIFPro</strong> tim stručnjaka ima za cilj da Vam pomogne da
+          razvijete i/ili plasirate svoje kozmetičke proizvode na tržišta
+          Republike Srbije i EU. Usluge koje nudimo obuhvataju:
+        </p>
+        <br />
+        <img
+          class="undrawAktivnosti"
+          src="./img/undraw_News_re_6uub.svg"
+          alt="Usluge"
+        />
+        <br />
+        <br />
+        <div class="wrapper">
+          <div class="spisak flexHarmonika">
+            <div class="raper">
+              <p id="jsondata">Priprema i sklapanje PIF fajla</p>
+              <div class="faIkona"><i class="far fa-times-circle"></i></div>
+            </div>
+          </div>
+          <div id="reveal-content" class="otkrij hide_aktivnosti">
+            <div id="json-content">
+              <p>
+                Odnosi se na bilo koju kategoriju kozmetičkih proizvoda (provera
+                i priprema neophodne dokumentacije, priprema Izveštaja o
+                bezbednosti kozmetičkog proizvoda, povezivanje priloženih
+                dokumenata u PIF).
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="spisak flexHarmonika">
+            <div class="raper">
+              <p id="jsondata">Procena bezbednosti kozmetičkog proizvoda</p>
+              <div class="faIkona"><i class="far fa-times-circle"></i></div>
+            </div>
+          </div>
+          <div id="reveal-content" class="otkrij hide_aktivnosti">
+            <div id="json-content">
+              <p>
+                Ovaj visoko kompleksni i odgovorni posao se obavlja od strane
+                visokokvalifikovanog stručnjaka sa preko 20 godina iskustva u
+                kozmetičkoj industriji. Više informacija na ovu temu možete naći
+                <a
+                  href="https://neshale.github.io/PIF_dual/templates/index.html"
+                  style="display: inline"
+                  >ovde.</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="spisak flexHarmonika">
+            <div class="raper">
+              <p id="jsondata">Poslovi „Odgovornog lica“</p>
+              <div class="faIkona"><i class="far fa-times-circle"></i></div>
+            </div>
+          </div>
+          <div id="reveal-content" class="otkrij hide_aktivnosti">
+            <div id="json-content">
+              <p>
+                Pored ovoga obavljamo i konsalting u vezi razjašnjavanja i
+                ispunjavanja obaveza i odgovornosti „Odgovornog lica“. Pravno
+                ili fizičko lice koje stavlja kozmetički proizvod na tržište
+                smatra se odgovornim za taj proizvod i naziva se „odgovorno
+                lice”. Obaveze "odgovornog lica" su brojne i kompleksne (više
+                informacija na ovu temu možete naći
+                <a
+                  href="https://neshale.github.io/PIF_dual/templates/index.html"
+                  style="display: inline"
+                  >ovde</a
+                >) i proizvodjač može odlučiti da agenciji prepusti ove poslove.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="spisak flexHarmonika">
+            <div class="raper">
+              <p id="jsondata">
+                Konsalting u vezi razvoja kozmetičkog proizvoda
+              </p>
+              <div class="faIkona"><i class="far fa-times-circle"></i></div>
+            </div>
+          </div>
+          <div id="reveal-content" class="otkrij hide_aktivnosti">
+            <div id="json-content">
+              <p>
+                Podrazumeva bilo koji aspekt razvoja kozmetičkog proizvoda - od
+                preformulacije, preko formulacije, fizičko-hemijske
+                karakterizacije i procene stabilnosti, ispitivanja efikasnosti i
+                određenih aspekata bezbednosti, do prenošenja proizvoda sa
+                laboratorijskog na industrijski nivo (scale-up).
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="spisak flexHarmonika">
+            <div class="raper">
+              <p id="jsondata">Usaglašenost deklaracije proizvoda</p>
+              <div class="faIkona"><i class="far fa-times-circle"></i></div>
+            </div>
+          </div>
+          <div id="reveal-content" class="otkrij hide_aktivnosti">
+            <div id="json-content">
+              <p>
+                Podrazumeva konsalting u vezi usaglašenosti elemenata
+                deklaracije u odnosu na regulativu i kako to postići, a zavisno
+                od sastojaka proizvoda, navedenih tvrdnji, studija stabilnosti,
+                studija efikasnosti proizvoda & 'patch' testova (ukoliko je
+                primenljivo).
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="spisak flexHarmonika">
+            <div class="raper">
+              <p id="jsondata">
+                Konstalting i logistiku u vezi "Challenge" testa
+              </p>
+              <div class="faIkona"><i class="far fa-times-circle"></i></div>
+            </div>
+          </div>
+          <div id="reveal-content" class="otkrij hide_aktivnosti">
+            <div id="json-content">
+              <p>
+                Podrazumeva konstalting, pripremu dokumentacije i logistiku
+                vezanu za ovaj aspekt procene bezbednosti kozmetičkog proizvoda,
+                ukoliko je primenljivo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="spisak flexHarmonika">
+            <div class="raper">
+              <p id="jsondata">
+                Ispitivanje iritacionog potencijala i patch testovi
+              </p>
+              <div class="faIkona"><i class="far fa-times-circle"></i></div>
+            </div>
+          </div>
+          <div id="reveal-content" class="otkrij hide_aktivnosti">
+            <div id="json-content">
+              <p>
+                Podrazumeva konstalting i logistiku vezanu za ovaj aspekt
+                procene bezbednosti kozmetičkog proizvoda, ukoliko je
+                primenljivo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="oNama" id="oNama">
+      <div class="textONAMA flexCol">
+        <h2>O Nama</h2>
+        <br />
+        <br />
+        <img
+          class="undrawAktivnosti"
+          src="./img/undraw_team_spirit_hrr4.svg"
+          alt="O Nama"
+        />
+        <br /><br />
+        <p class="oNamaText">
+          Tim koji stoji iza Vas ima više od 20 godina iskustva u formulisanju
+          proizvoda prepoznatljivih po kvalitetu na domaćem tržištu i tržištima
+          okolnih zemalja. Za svaki od tih proizvoda,
+          <strong>PIFPro </strong> tim je generisao parametre za kvalitet
+          proizvoda, procedure za njihovo izvođenje, kao i izvođenje "Scale-Up"
+          procesa.
+        </p>
+        <p class="oNamaText">
+          <strong>PIFPro</strong> tim u svom sastavu ima i dva doktora
+          farmaceutskih nauka sa radovima u prestižnim međunarodnim časopisima.
+          Od značaja za ovu konkretnu problematiku su radovi u vezi nove
+          visoko-efikasne metode za ubrzanu evaluaciju fizičke stabilnosti
+          emulzionih sistema na temperaturne oscilacije, koja ovaj proces svodi
+          na svega par sati.
+        </p>
+        <p class="oNamaText">
+          U cilju pružanja usluga profesionalnog kvaliteta pored ogromnog
+          neposrednog iskustva u formulisanju, kontroli i proizvodnji
+          <strong>PIFPro</strong>
+          neprestano ulaže u svoj tim u smislu kontinualnih obuka kod
+          renomiranih stručnjaka i evropskih Univerziteta u oblasti procene
+          bezbednosti kozmetičkih proizvoda.
+        </p>
+
+        <img
+          class="certifikat"
+          src="./img/Certificate_Cekic@0.3x.jpg"
+          alt="certifikat"
+        />
+      </div>
+    </section>
+    <section class="kontakt" id="kontakt">
+      <div class="textKontakt">
+        <h2>Kontakt</h2>
+        <br /><br />
+        <img
+          class="undrawAktivnosti"
+          src="./img/undraw_contact_us_15o2.svg"
+          alt="Kontakt"
+        />
+      </div>
+      <div class="podaciMapa">
+        <ul class="lista">
+          <li>
+            <span class="fa-icon">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+            </span>
+            + 381.60.5.215.410
+          </li>
+          <li>
+            <span class="fa-icon">
+              <i class="fa fa-at" aria-hidden="true"></i>
+            </span>
+            nesafarm@iCloud.com
+          </li>
+          <li>
+            <span class="fa-icon">
+              <i class="fa fa fa-map-marker" aria-hidden="true"></i> </span
+            >Matije Gupca 31, Leskovac, Srbija
+          </li>
+        </ul>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1425.256635365278!2d21.924164462081276!3d42.99108168972626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475582c8a70b6251%3A0x68fc29abfdac3e60!2sMatije%20Gupca%2035%2C%20Leskovac%2C%20Serbia!5e1!3m2!1sen!2smk!4v1612618648961!5m2!1sen!2smk"
+          height="450"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </div>
+    </section>
+    <footer>
+      <div class="futer">
+        © PIFPro, Designed by Nebojsa Cekic,
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
+  </body>
+</html>
