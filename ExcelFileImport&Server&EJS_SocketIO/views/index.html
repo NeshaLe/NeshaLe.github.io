@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExcelToJSON</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="flex">
+      <label class="custom-file-upload">
+        <input
+          class="form-control"
+          type="file"
+          id="input"
+          accept=".xls,.xlsx"
+        />Ubaci Excel fajl</label
+      >
+
+      <button class="btn" id="button">Convert</button>
+
+      <div class="spisak flex">
+        <p id="jsondata"></p>
+      </div>
+    </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.8/xlsx.full.min.js"
+      integrity="sha512-NerWxp37F9TtBS1k1cr2TjyC9c8Qh6ghgqVBOYXaahgnBkVT6a8KVbO05Z8+LnIIom4CJSSQTZ3VbL396scK5w=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/jscrpt.js"></script>
+  </body>
+</html>

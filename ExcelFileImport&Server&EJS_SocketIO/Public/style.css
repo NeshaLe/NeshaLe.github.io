@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: bisque;
+  font-family: "Montserrat", sans-serif;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem;
+  min-height: 100vh;
+  /* flex: wrap; */
+}
+
+.spisak {
+  background-color: whitesmoke;
+  min-height: 50%;
+  min-width: 100%;
+  flex: 1;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
+.btn {
+  padding: 1rem 5rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 2rem;
+  background: rgb(28, 123, 155);
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.spisak,
+.btn,
+.custom-file-upload {
+  margin: 2rem 0rem;
+}
+
+.form-control {
+  /* -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-color: whitesmoke;
+  padding: 2rem 0rem;
+  border-radius: 1rem; */
+  display: none;
+}
+
+.custom-file-upload {
+  border: 0.3rem dotted #ccc;
+  /* display: inline-block; */
+  padding: 3rem 10rem;
+  cursor: pointer;
+  font-size: 2rem;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+}
+
+#jsondata {
+  padding: 1rem 0rem;
+}
+
+.btn:hover {
+  background: rgb(231, 131, 0);
+  /* cursor: pointer; */
+  border: none;
+}
+
+.btn:focus {
+  border: none;
+}
