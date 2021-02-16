@@ -12,7 +12,7 @@ router.get("/", (req, res, next) => {
   izExcela(sastojci);
 
   res.render("index", {
-    pageTitle: "ExcelToJSON",
+    pageTitle: "ExcelToJSON-ovaj",
     lista: sastojci,
     vreme: moment().format("hh:mm:ss"),
   });
