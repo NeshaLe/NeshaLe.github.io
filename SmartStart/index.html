@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Smart Start Grant</title>
+  </head>
+  <body>
+    <div class="mainDiv">
+      <iframe
+        frameborder="0"
+        id="myIframe"
+        style="border: 0"
+        src="https://orgpad.info/s/aphhY1nqZ3v?embed=true"
+      ></iframe>
+    </div>
+    <script>
+      function resizeIframe() {
+        const iframe = document.getElementById("myIframe");
+        iframe.style.width = window.innerWidth * 1.25 + "px";
+        iframe.style.height = window.innerHeight * 1.25 + "px";
+      }
+
+      window.addEventListener("load", resizeIframe);
+      window.addEventListener("resize", resizeIframe);
+    </script>
+  </body>
+</html>
